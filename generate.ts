@@ -2,8 +2,9 @@
 import { variants } from "https://esm.sh/@catppuccin/palette@0.1.5";
 
 for (let [flavour, colors] of Object.entries(variants)) {
+  const isLatte = flavour === "latte";
   colors = Object.fromEntries(
-    Object.entries(colors).map(([key, value]) => [key, value.hex]),
+    Object.entries(colors).map(([key, value]) => [key, value.hex])
   );
 
   const theme = {
@@ -20,7 +21,7 @@ for (let [flavour, colors] of Object.entries(variants)) {
     awayIndicator: colors.peach,
     dndIndicator: colors.red,
     mentionBj: colors.crust,
-    mentionColor: colors.pink,
+    mentionColor: colors.crust,
     centerChannelBg: colors.base,
     centerChannelColor: colors.subtext0,
     newMessageSeparator: colors.red,
@@ -30,7 +31,7 @@ for (let [flavour, colors] of Object.entries(variants)) {
     errorTextColor: colors.red,
     mentionHighlightBg: colors.mantle,
     mentionHighlightLink: colors.rosewater,
-    codeTheme: "Monokai",
+    codeTheme: isLatte ? "GitHub" : "Monokai",
     sidebarTeamBarBg: colors.crust,
   };
   console.log([flavour, "\n", JSON.stringify(theme, null, 0)].join(""));
