@@ -1,0 +1,28 @@
+
+{
+  "sidebarBg": "#1e2030",
+  "sidebarText": "#cad3f5",
+  "sidebarUnreadText": "#a6da95",
+  "sidebarTextHoverBg": "#6e738d",
+  "sidebarTextActiveBorder": "#6e738d",
+  "sidebarTextActiveColor": "#24273a",
+  "sidebarHeaderBg": "#181926",
+  "sidebarHeaderTextColor": "#cad3f5",
+  "onlineIndicator": "#a6da95",
+  "mentionBg": "#f5bde6",
+  "awayIndicator": "#f5a97f",
+  "dndIndicator": "#ed8796",
+  "mentionBj": "#181926",
+  "mentionColor": "#181926",
+  "centerChannelBg": "#24273a",
+  "centerChannelColor": "#a5adcb",
+  "newMessageSeparator": "#ed8796",
+  "linkColor": "#f4dbd6",
+  "buttonBg": "#8aadf4",
+  "buttonColor": "#24273a",
+  "errorTextColor": "#ed8796",
+  "mentionHighlightBg": "#1e2030",
+  "mentionHighlightLink": "#f4dbd6",
+  "codeTheme": "Monokai",
+  "sidebarTeamBarBg": "#181926"
+}
