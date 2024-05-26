@@ -5,7 +5,6 @@ whiskers:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.json"
 ---
-
 {
   "sidebarBg": "#{{ mantle.hex }}",
   "sidebarText": "#{{ text.hex }}",
