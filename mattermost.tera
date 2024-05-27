@@ -23,7 +23,7 @@ whiskers:
   "centerChannelBg": "#{{ base.hex }}",
   "centerChannelColor": "#{{ subtext0.hex }}",
   "newMessageSeparator": "#{{ red.hex }}",
-  "linkColor": "#{{ rosewater.hex }}",
+  "linkColor": "#{{ blue.hex }}",
   "buttonBg": "#{{ blue.hex }}",
   "buttonColor": "#{{ base.hex }}",
   "errorTextColor": "#{{ red.hex }}",
