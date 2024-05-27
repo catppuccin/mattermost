@@ -1,0 +1,34 @@
+---
+whiskers:
+  version: "2.2.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.json"
+---
+{
+  "sidebarBg": "#{{ mantle.hex }}",
+  "sidebarText": "#{{ text.hex }}",
+  "sidebarUnreadText": "#{{ green.hex }}",
+  "sidebarTextHoverBg": "#{{ overlay0.hex }}",
+  "sidebarTextActiveBorder": "#{{ overlay0.hex }}",
+  "sidebarTextActiveColor": "#{{ base.hex }}",
+  "sidebarHeaderBg": "#{{ crust.hex }}",
+  "sidebarHeaderTextColor": "#{{ text.hex }}",
+  "onlineIndicator": "#{{ green.hex }}",
+  "mentionBg": "#{{ pink.hex }}",
+  "awayIndicator": "#{{ peach.hex }}",
+  "dndIndicator": "#{{ red.hex }}",
+  "mentionBj": "#{{ crust.hex }}",
+  "mentionColor": "#{{ crust.hex }}",
+  "centerChannelBg": "#{{ base.hex }}",
+  "centerChannelColor": "#{{ subtext0.hex }}",
+  "newMessageSeparator": "#{{ red.hex }}",
+  "linkColor": "#{{ blue.hex }}",
+  "buttonBg": "#{{ blue.hex }}",
+  "buttonColor": "#{{ base.hex }}",
+  "errorTextColor": "#{{ red.hex }}",
+  "mentionHighlightBg": "#{{ mantle.hex }}",
+  "mentionHighlightLink": "#{{ rosewater.hex }}",
+  "codeTheme": {% if flavor.dark %}"Monokai"{% else %}"GitHub"{% endif %},
+  "sidebarTeamBarBg": "#{{ crust.hex }}"
+}
